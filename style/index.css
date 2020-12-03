@@ -47,3 +47,58 @@ table {
 }
 
 
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top:20px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 1px solid red;
+
+}
+
+.myName {
+    font-size: 3rem;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border:1px solid green;
+}
+
+.navbar {
+    height: 50px;
+    width: 40%;
+    display: flex;
+    margin-right: 20px;
+    border:1px solid green;
+     
+
+}
+
+.navlinks {
+    height:50px;
+    width: 150px;
+    display: flex;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;    
+    
+
+    
+}
+
+.cta {
+    display: flex;
+
+}
+
+.projectGallery {
+    display: flex;
+
+}
+
+.image {
+    display: flex;
+
+}
