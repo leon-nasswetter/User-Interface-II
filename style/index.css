@@ -54,24 +54,25 @@ header {
     margin-top:20px;
     flex-flow: row nowrap;
     justify-content: space-between;
-    border: 1px solid red;
+   
 
 }
 
 .myName {
     font-size: 3rem;
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
-    border:1px solid green;
+
 }
 
 .navbar {
     height: 50px;
     width: 40%;
     display: flex;
-    margin-right: 20px;
-    border:1px solid green;
+    margin-right: 30px;
+
+    justify-content: flex-end;
      
 
 }
@@ -83,22 +84,57 @@ header {
     border:1px solid black;
     justify-content: center;
     align-items: center;    
-    
+    text-decoration: none;
 
     
 }
 
 .cta {
+    width:80%;
+    height:40vh;
     display: flex;
-
+    flex-direction: column;
+    margin:40px auto;
+    justify-content:center;
+    align-items:center;
+    background-image:url(https://picsum.photos/1400);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+h1 {
+    font-size:4rem;
+    color: white;
+    text-shadow:2px 2px black;
+    
+}
+
+.myProjects {
+    height:35px;
+    width:140px;
+    font-size:1.2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
 .projectGallery {
+    width: 100%;
     display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
 
 }
 
 .image {
     display: flex;
+    border: 1px solid red;
 
 }
