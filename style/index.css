@@ -205,3 +205,47 @@ footer .socialMedia {
     margin-top:20px;
 
 }
+
+@media(max-width:800px){
+
+    .myName{
+        font-size:2.5rem;
+    }
+    .navbar{
+        width: 50%;
+    }
+    .navlinks{
+        height:40px;
+    }
+    .cta{
+        height:30vh;
+    }
+    .projectGallery{
+        width:80%;
+        margin-top:4%;
+        margin-bottom:4%;
+    }
+
+    .image{
+        height: 200px;
+        width: 280px; 
+    }
+}
+
+@media(max-width:500px){
+    header{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .myName{
+        margin:0;
+        margin-top:4%;
+    }
+    .navbar{
+        margin-top:5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
