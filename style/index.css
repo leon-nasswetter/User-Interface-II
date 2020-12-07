@@ -240,12 +240,29 @@ footer .socialMedia {
     }
     .myName{
         margin:0;
-        margin-top:4%;
+        margin-top:30%;
+        font-size:3.5rem
     }
     .navbar{
-        margin-top:5%;
+        margin-top:1%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height:150px;
+        
     }
+    .navlinks{
+        width:100px;
+    }
+    .cta{
+        margin-top:35%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .image{
+      width:150px;  
+      height:180px;
+    }
+
 }
